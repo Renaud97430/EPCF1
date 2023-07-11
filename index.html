@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EPCF1-Repas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="recherche-container">
+      <input type="text" id="rechercheInput" placeholder="Nom du Repas" />
+      <div class="range-container">
+        <input type="range" id="rangeInput" min="0" value="8" max="50" />
+        <span id="afficheRange">8</span>
+      </div>
+      <div class="tri-container">
+        <button id="croissant" class="boutonTri">Croissant</button>
+        <button id="decroissant" class="boutonTri">Décroissant</button>
+      </div>
+    </div>
+      <div class="repas-container">
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

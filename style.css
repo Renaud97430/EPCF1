@@ -1,0 +1,97 @@
+/* Correction : */
+body {
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.recherche-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 20px;
+}
+
+.sort-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+#rechercheInput {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+#rechercheInput::placeholder {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  background-color: #008080;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #008099;
+}
+
+button.active {
+  background-color: white;
+  color: #008080;
+}
+
+.repas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.repas-card {
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #333;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.description {
+  overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 4; 
+           /* line-clamp: 4;  */
+   -webkit-box-orient: vertical
+}
